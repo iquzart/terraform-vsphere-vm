@@ -1,8 +1,1 @@
-notes/*
-IaC/vault-infra/*.tfvars
-IaC/vault=infra/*.tfstate
-IaC/vault=infra/*.tfstate.backup
-CaC/*/*.tfvars
-CaC/*/*.tfstate
-CaC/*/*.tfstate.backup
-
+**.terraform/**
