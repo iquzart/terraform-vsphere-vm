@@ -48,18 +48,6 @@ variable "template_name" {
   type        = string
 }
 
-# VM Folders
-# variable "service_cluster_parent_folder" {
-#   description = "service Cluster parent folder name"
-#   type        = string
-#   default     = ""
-# }
-
-# variable "service_cluster_child_folder" {
-#   description = "service Cluster child folder name"
-#   type        = string
-#   default     = ""
-# }
 
 # Linux VM Variables
 variable "vm_name" {
