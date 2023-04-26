@@ -17,8 +17,8 @@ name          = var.management_network
 datacenter_id = data.vsphere_datacenter.dc.id
 }
 
-data "vsphere_network" "vault_network" {
-name          = var.vault_network
+data "vsphere_network" "service_network" {
+name          = var.service_network
 datacenter_id = data.vsphere_datacenter.dc.id
 }
 
