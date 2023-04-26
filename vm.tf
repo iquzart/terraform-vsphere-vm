@@ -47,8 +47,8 @@ resource "vsphere_virtual_machine" "vm" {
             }
             # Interface for Service
             network_interface {
-                ipv4_address = var.vault_ipv4_address
-                ipv4_netmask = var.vault_ipv4_netmask
+                ipv4_address = var.service_ipv4_address
+                ipv4_netmask = var.service_ipv4_netmask
             }
             ipv4_gateway = var.vm_ipv4_gateway
             dns_server_list = var.vm_dns_servers
